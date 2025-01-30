@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="uname">Enter Name</label>
+        <input type="text" name="uname" id="uname" size="20" maxlength="9" placeholder="Enter your name" >
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input type="text" name="pass" id="pass" placeholder="Enter your password">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>  <!--required make the input mandatory-->
+        <br>
+        <br>
+        <label for="review">Write a review</label><br>
+        <textarea name="review" id="review" rows="10"  cols="40"></textarea>
+        <br>
+        <br>
+        <label>Which vehicle do you have?</label>
+        <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <br>
+        <br>
+        <label for="qualification">Enter your higher qualification?</label>
+        <br>
+        <input type="radio" id="qualification1" name="qualification" value="btech"> <!--name is used to assign the input into one label-->
+        <label for="qualification1"> Btech</label><br>
+        <input type="radio" id="qualification2" name="qualification" value="bcom">
+        <label for="qualification2"> Bcom</label><br>
+        <input type="radio" id="qualification3" name="qualification" value="bcom">
+        <label for="qualification3"> Bsc</label><br>
+
+        <label for="cars" multiple>Choose a car:</label><label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br>
+        <br>
+        <input type="reset" name="resetform" value="reset">
+        <input type="submit" value="submit">
+        <input type="image" name="imgbtn" id="imgbtn" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fsubmit-button&psig=AOvVaw2myZ2jZ8iRtcfo3Ji7EPs4&ust=1737606967129000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjuicPAiIsDFQAAAAAdAAAAABAE">
+    </form>
+</body>
+</html>
